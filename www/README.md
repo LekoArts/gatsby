@@ -15,6 +15,8 @@ To work with environment variables create a file in the root of `www` called `.e
 
 The `.env.development` file is ignored by git. Your token should never be committed.
 
+_Note:_ For `gatsby build` to be able to run you also need a `.env.production` file with the same contents
+
 ### Working with the starter library
 
 To develop on the starter library, you'll need to supply a GitHub personal access token.
@@ -26,8 +28,6 @@ To develop on the starter library, you'll need to supply a GitHub personal acces
 ```shell
 GITHUB_API_TOKEN=YOUR_TOKEN_HERE
 ```
-
-_Note:_ For `gatsby build` to be able to run you also need a `.env.production` file with the same contents
 
 ### Enabling guess.js
 
